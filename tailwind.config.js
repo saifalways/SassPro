@@ -11,6 +11,7 @@ export default {
          colors: {
         'offWhite': '#EEF4F9',
         'skyBlue': '#2C83BB',
+        'navBg': '#0D554C',
       },
     },
   },

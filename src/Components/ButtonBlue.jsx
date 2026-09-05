@@ -1,9 +1,9 @@
 import React from "react";
 
-const ButtonBlue = ({ text }) => {
+const ButtonBlue = ({ text, className }) => {
   return (
     <>
-      <button className=" bg-skyBlue text-white py-5 font-semibold px-12 rounded-lg border border-transparent font-raleway hover:text-skyBlue hover:bg-transparent hover:border-skyBlue duration-300 ease-in-out ">
+      <button className={` bg-skyBlue text-white py-5 font-semibold px-12 rounded-lg border border-transparent font-raleway hover:text-skyBlue hover:bg-transparent hover:border-skyBlue duration-300 ease-in-out ${className}`}>
         {text}
       </button> 
     </>
